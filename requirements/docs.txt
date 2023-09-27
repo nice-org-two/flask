@@ -5,7 +5,7 @@
 #
 #    pip-compile-multi
 #
-alabaster==0.7.13
+alabaster==1.7.13
     # via sphinx
 babel==2.12.1
     # via sphinx
