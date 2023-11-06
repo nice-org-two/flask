@@ -1,0 +1,130 @@
+repo_name: nice-org-two/flask
+report_id: 30700e6fe0041d591e4d82acec51b68f
+repo_type: Public
+timestamp: '2023-11-06T13:21:25+00:00'
+requested_by: bob-wise0
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 3.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  imageURL: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: examples/celery/requirements.txt
+  detection_source: requirements/tests-pallets-min.txt
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: examples/tutorial/tests/data.sql
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  imageURL: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: examples/celery/requirements.txt
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  imageURL: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  imageURL: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/tests.yaml"
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source: ".github/workflows/publish.yaml"
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 3.3.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  imageURL: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: requirements/dev.txt
+  detection_source: requirements/dev.txt
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  imageURL: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: requirements/tests.txt
+  detection_source: requirements/tests.txt
+- name: Bitdeli
+  description: Build Your Own Analytics
+  website_url: https://bitdeli.com
+  open_source: false
+  hosted_saas: true
+  category: Analytics
+  sub_category: Custom Analytics
+  imageURL: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  detection_source: requirements/tests-pallets-min.txt
