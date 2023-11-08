@@ -38,7 +38,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/flask](https://github.com/nice-org-two/flask)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|402<br/>Contributors|11/07/23 <br/>Report generated|09/27/23<br/>Last commit date|
+|12<br/>Tools used|402<br/>Contributors|11/08/23 <br/>Report generated|09/27/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -87,14 +87,14 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Data (1)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'>
   <br>
   <sub><a href="http://redis.io/">Redis</a></sub>
   <br>
-  <sub></sub>
+  <sub>v4.5.4</sub>
 </td>
 
 </tr>
@@ -145,7 +145,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Software as a Service (SaaS) (1)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png' alt='Bitdeli'>
