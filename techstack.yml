@@ -1,7 +1,7 @@
 repo_name: nice-org-two/flask
-report_id: 79bd4e5c2fd1ba18307766e9649eae7e
+report_id: 71c6e7b0e9822b3a5c649156390f9e13
 repo_type: Public
-timestamp: '2023-11-07T12:50:22+00:00'
+timestamp: '2023-11-08T07:34:05+00:00'
 requested_by: bob-wise0
 provider: github
 branch: main
@@ -14,7 +14,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/6727/css.png
+  image_url: https://img.stackshare.io/service/6727/css.png
   detection_source: Repo Metadata
 - name: Jinja
   description: Full featured template engine for Python
@@ -25,7 +25,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
-  imageURL: https://img.stackshare.io/service/2303/New_Project__20_.png
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
   detection_source_url: examples/celery/requirements.txt
   detection_source: requirements/tests-pallets-min.txt
 - name: Python
@@ -36,7 +36,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/993/pUBY5pVj.png
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -45,7 +45,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
   detection_source: examples/tutorial/tests/data.sql
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -55,17 +55,19 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
   detection_source: Repo Metadata
 - name: Redis
   description: Open source (BSD licensed), in-memory data structure store
   website_url: http://redis.io/
+  version: 4.5.4
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Data Stores
   sub_category: In-Memory Databases
-  imageURL: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -74,7 +76,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -83,7 +85,7 @@ tools:
   hosted_saas: true
   category: Build, Test, Deploy
   sub_category: Continuous Integration
-  imageURL: https://img.stackshare.io/service/11563/actions.png
+  image_url: https://img.stackshare.io/service/11563/actions.png
   detection_source: ".github/workflows/tests.yaml"
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
@@ -94,7 +96,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Microservices Tools
-  imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
   detection_source: ".github/workflows/publish.yaml"
 - name: pre-commit
   description: A slightly improved pre-commit hook for git
@@ -104,7 +106,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Git Tools
-  imageURL: https://img.stackshare.io/no-img-open-source.png
+  image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: requirements/dev.txt
   detection_source: requirements/dev.txt
 - name: pytest
@@ -116,7 +118,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
-  imageURL: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
   detection_source_url: requirements/tests.txt
   detection_source: requirements/tests.txt
 - name: Bitdeli
@@ -126,5 +128,5 @@ tools:
   hosted_saas: true
   category: Analytics
   sub_category: Custom Analytics
-  imageURL: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
   detection_source: requirements/tests-pallets-min.txt
