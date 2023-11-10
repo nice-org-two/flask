@@ -1,11 +1,11 @@
 repo_name: nice-org-two/flask
-report_id: fe86f6e007b626f893c24890d8141e8e
+report_id: a337bba0e71651cc53b70202f3d48161
 repo_type: Public
-timestamp: '2023-11-08T20:18:41+00:00'
+timestamp: '2023-11-10T16:29:09+00:00'
 requested_by: bob-wise0
 provider: github
 branch: main
-detected_tools_count: 12
+detected_tools_count: 13
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -28,6 +28,8 @@ tools:
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
   detection_source_url: examples/celery/requirements.txt
   detection_source: requirements/tests-pallets-min.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-02-09 18:50:57.000000000 Z
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
     to Perl, Ruby, Scheme, or Java.
@@ -47,6 +49,8 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
   detection_source: examples/tutorial/tests/data.sql
+  last_updated_by: David Lord
+  last_updated_on: 2018-02-09 22:39:05.000000000 Z
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
     files. Shell scripts typically manage program execution.
@@ -69,6 +73,8 @@ tools:
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
   detection_source_url: examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-05-02 14:17:52.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -87,6 +93,8 @@ tools:
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
   detection_source: ".github/workflows/tests.yaml"
+  last_updated_by: David Lord
+  last_updated_on: 2023-01-20 21:45:15.000000000 Z
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
     IBM, and Lyft
@@ -98,6 +106,8 @@ tools:
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
   detection_source: ".github/workflows/publish.yaml"
+  last_updated_by: David Lord
+  last_updated_on: 2023-01-20 21:45:15.000000000 Z
 - name: pre-commit
   description: A slightly improved pre-commit hook for git
   website_url: http://jish.github.io/pre-commit/
@@ -109,6 +119,8 @@ tools:
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: requirements/dev.txt
   detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-05-02 14:17:52.000000000 Z
 - name: pytest
   description: A full-featured Python testing tool to help you write better programs
   website_url: http://pytest.org/latest/
@@ -121,6 +133,8 @@ tools:
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
   detection_source_url: requirements/tests.txt
   detection_source: requirements/tests.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-04-15 19:25:09.000000000 Z
 - name: Bitdeli
   description: Build Your Own Analytics
   website_url: https://bitdeli.com
@@ -130,3 +144,15 @@ tools:
   sub_category: Custom Analytics
   image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
   detection_source: requirements/tests-pallets-min.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-11-15 21:08:34.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source: requirements/typing.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-04-11 22:33:34.000000000 Z
