@@ -38,8 +38,8 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/flask](https://github.com/nice-org-two/flask)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|402<br/>Contributors|11/08/23 <br/>Report generated|09/27/23<br/>Last commit date|
-|------|------|------|------|
+|13<br/>Tools used|11/10/23 <br/>Report generated|
+|------|------|
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (5)
@@ -151,6 +151,19 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png' alt='Bitdeli'>
   <br>
   <sub><a href="https://bitdeli.com">Bitdeli</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## Other (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png' alt='mypy'>
+  <br>
+  <sub><a href="http://mypy-lang.org/">mypy</a></sub>
   <br>
   <sub></sub>
 </td>
