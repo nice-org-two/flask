@@ -1,11 +1,12 @@
 repo_name: nice-org-two/flask
-report_id: b69c559df6d5fe2de34c4aac6e59445d
+report_id: 2d69332abc57bad7a6a29ce84d439702
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T18:05:08+00:00'
+timestamp: '2024-01-05T15:16:37+00:00'
 requested_by: bob-wise0
 provider: github
 branch: main
-detected_tools_count: 13
+detected_tools_count: 23
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nice-org-two/flask
   detection_source: Repo Metadata
 - name: Jinja
   description: Full featured template engine for Python
@@ -26,8 +28,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: examples/celery/requirements.txt
-  detection_source: requirements/tests-pallets-min.txt
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/examples/celery/requirements.txt
+  detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-02-09 18:50:57.000000000 Z
 - name: Python
@@ -39,7 +41,21 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/nice-org-two/flask
   detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
 - name: SQL
   description: It is a domain-specific language used in programming
   website_url: https://en.wikipedia.org/wiki/SQL
@@ -48,7 +64,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: examples/tutorial/tests/data.sql
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/examples/tutorial/flaskr/schema.sql
+  detection_source: examples/tutorial/flaskr/schema.sql
   last_updated_by: David Lord
   last_updated_on: 2018-02-09 22:39:05.000000000 Z
 - name: Shell
@@ -60,6 +77,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nice-org-two/flask
   detection_source: Repo Metadata
 - name: Redis
   description: Open source (BSD licensed), in-memory data structure store
@@ -71,10 +89,23 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: examples/celery/requirements.txt
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/examples/celery/requirements.txt
   detection_source: examples/celery/requirements.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-03-11 15:36:51.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -83,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nice-org-two/flask
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -92,7 +124,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/tests.yaml"
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/.github/workflows/lock.yaml
+  detection_source: ".github/workflows/lock.yaml"
   last_updated_by: David Lord
   last_updated_on: 2023-01-20 21:45:15.000000000 Z
 - name: Istio
@@ -105,9 +138,22 @@ tools:
   category: Build, Test, Deploy
   sub_category: Microservices Tools
   image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/.github/workflows/publish.yaml
   detection_source: ".github/workflows/publish.yaml"
   last_updated_by: David Lord
   last_updated_on: 2023-01-20 21:45:15.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
 - name: pre-commit
   description: A slightly improved pre-commit hook for git
   website_url: http://jish.github.io/pre-commit/
@@ -117,7 +163,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: requirements/dev.txt
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/dev.txt
   detection_source: requirements/dev.txt
   last_updated_by: David Lord
   last_updated_on: 2023-05-02 14:17:52.000000000 Z
@@ -131,7 +177,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: requirements/tests.txt
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/tests.txt
   detection_source: requirements/tests.txt
   last_updated_by: David Lord
   last_updated_on: 2023-04-15 19:25:09.000000000 Z
@@ -143,9 +189,65 @@ tools:
   category: Analytics
   sub_category: Custom Analytics
   image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/tests-pallets-min.txt
   detection_source: requirements/tests-pallets-min.txt
   last_updated_by: David Lord
   last_updated_on: 2021-11-15 21:08:34.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: Requests
+  description: Elegant and simple HTTP library for Python
+  website_url: http://docs.python-requests.org/en/latest/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Transfer
+  image_url: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-05-02 14:17:52.000000000 Z
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-04-25 17:40:57.000000000 Z
+- name: Werkzeug
+  website_url: https://palletsprojects.com/p/werkzeug/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/11076/iwoLyNPI_normal.jpg
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/tests-pallets-min.txt
+  detection_source: requirements/tests-pallets-min.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-05-01 15:35:01.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/docs.txt
+  detection_source: requirements/docs.txt
+  last_updated_by: David Lord
+  last_updated_on: 2022-04-01 20:44:13.000000000 Z
 - name: mypy
   description: Developers of mypy, a Python variant with seamless dynamic and static
     typing
@@ -153,6 +255,28 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/typing.txt
   detection_source: requirements/typing.txt
   last_updated_by: David Lord
   last_updated_on: 2023-04-11 22:33:34.000000000 Z
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/nice-org-two/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2023-05-02 14:17:52.000000000 Z
